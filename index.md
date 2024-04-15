@@ -5,10 +5,8 @@ layout: home
 hero:
   name: "ThreeBird 项目文档"
   text: "Docs for ThreeBird"
-  tagline: My great project tagline
-  image:
-    src: logo-icon.png
-    alt: Docs for ThreeBird
+  tagline: ThreeBird
+  image: logo-icon.png
   actions:
     - theme: brand
       text: Get Start
