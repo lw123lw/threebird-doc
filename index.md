@@ -7,7 +7,7 @@ hero:
   text: "Docs for ThreeBird"
   tagline: My great project tagline
   image:
-    src: .vitepress/assets/logo-icon.png
+    src: logo-icon.png
     alt: Docs for ThreeBird
   actions:
     - theme: brand
@@ -25,12 +25,3 @@ features:
   - title: 特性 C
     details: 特性 C 的详细描述
 ---
-
-<script setup lang="ts">
-import { onMounted } from 'vue';
-import { fetchVersion } from './.vitepress/utils/fetchVersion';
-
-onMounted(() => {
-  fetchVersion()
-})
-</script>

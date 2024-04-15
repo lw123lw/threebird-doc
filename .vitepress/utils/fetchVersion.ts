@@ -15,7 +15,7 @@
   return fetch('https://raw.githubusercontent.com/themusecatcher/front-end-notes/master/package.json')
 */
 export function fetchVersion () {
-    return fetch('https://github.com/lw123lw/threebird-doc/blob/master/package.json?ref=master', {
+    return fetch('https://github.com/lw123lw/threebird-doc/package.json?ref=master', {
         headers: {
             // See https://docs.github.com/en/rest/overview/media-types
             Accept: 'application/vnd.github.v3.raw',
