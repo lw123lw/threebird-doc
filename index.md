@@ -7,7 +7,7 @@ hero:
   text: "Docs for ThreeBird"
   tagline: My great project tagline
   image:
-    src: ./.vitepress/assets/logo-icon.png
+    src: .vitepress/assets/logo-icon.png
     alt: Docs for ThreeBird
   actions:
     - theme: brand
