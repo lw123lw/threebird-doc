@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c9c0fb3-5266-475f-9a86-380de494af90" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps/chunk-WZSWIX5T.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps/chunk-WZSWIX5T.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress___@vueuse_integrations_useFocusTrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress___@vueuse_integrations_useFocusTrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress___mark__js_src_vanilla__js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress___mark__js_src_vanilla__js.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress___minisearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress___minisearch.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo-black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/cache/deps/_metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress___@vueuse_core.js" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress___@vueuse_core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress___@vueuse_core.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress___@vueuse_core.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/config.mts" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/config.mts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logo-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo-icon.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +61,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/liwei/Desktop/开源项目/ThreeBird/threebird-doc",
+    "last_opened_file_path": "/Users/liwei/Desktop/开源项目/ThreeBird/threebird-doc/public",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -62,8 +75,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/.vitepress/assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="RunManager">
@@ -94,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713170620033</updated>
-      <workItem from="1713170621422" duration="8573000" />
+      <workItem from="1713170621422" duration="10001000" />
     </task>
     <servers />
   </component>
