@@ -5,26 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c9c0fb3-5266-475f-9a86-380de494af90" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps_temp_6271ffe5/chunk-Z6B2QTD3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps_temp_6271ffe5/chunk-Z6B2QTD3.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps_temp_6271ffe5/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps_temp_6271ffe5/vitepress___@vue_devtools-api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps_temp_6271ffe5/vitepress___@vue_devtools-api.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps_temp_6271ffe5/vitepress___@vueuse_core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps_temp_6271ffe5/vitepress___@vueuse_core.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps_temp_6271ffe5/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps_temp_6271ffe5/vue.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/_metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/chunk-CWWDSGDC.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/chunk-CWWDSGDC.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress___@vue_devtools-api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress___@vue_devtools-api.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress___@vueuse_core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress___@vueuse_core.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/vue.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/config.mts" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/config.mts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps/_metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps/chunk-IZZWTRDD.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps/chunk-IZZWTRDD.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps/chunk-LT42SNRH.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps/chunk-LT42SNRH.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress___@vue_devtools-api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress___@vue_devtools-api.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress___@vueuse_core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress___@vueuse_core.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps/vue-demi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps/vue-demi.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps/vue.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps_temp_edb0051f/chunk-Z6B2QTD3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps_temp_edb0051f/chunk-Z6B2QTD3.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps_temp_edb0051f/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps_temp_edb0051f/vitepress___@vue_devtools-api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps_temp_edb0051f/vitepress___@vue_devtools-api.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps_temp_edb0051f/vitepress___@vueuse_core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps_temp_edb0051f/vitepress___@vueuse_core.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps_temp_edb0051f/vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps_temp_edb0051f/vue.js.map" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +69,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "正在合并 master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/liwei/Desktop/开源项目/ThreeBird/threebird-doc/.vitepress/assets",
     "list.type.of.created.stylesheet": "CSS",
@@ -112,7 +116,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713170620033</updated>
-      <workItem from="1713170621422" duration="4297000" />
+      <workItem from="1713170621422" duration="4516000" />
     </task>
     <servers />
   </component>
