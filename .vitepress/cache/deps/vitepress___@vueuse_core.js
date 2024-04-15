@@ -33,7 +33,7 @@ import {
   version,
   watch,
   watchEffect
-} from "./chunk-OOO2W3XR.js";
+} from "./chunk-CWWDSGDC.js";
 
 // node_modules/.pnpm/vitepress@1.1.0_@algolia+client-search@4.23.3_search-insights@2.13.0/node_modules/vitepress/lib/vue-demi.mjs
 var isVue2 = false;
