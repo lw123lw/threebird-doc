@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/threebird-docs/',
+  base: '/threebird-doc/',
   title: "ThreeBird",
   description: "A VitePress Site",
   themeConfig: {
