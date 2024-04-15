@@ -25,3 +25,12 @@ features:
   - title: 特性 C
     details: 特性 C 的详细描述
 ---
+
+<script setup>
+import { onMounted } from 'vue';
+import { fetchVersion } from './.vitepress/utils/fetchVersion.ts';
+
+onMounted(() => {
+  fetchVersion()
+})
+</script>

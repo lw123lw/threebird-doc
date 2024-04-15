@@ -1,35 +1,26 @@
-/*
-  远程读取 github 仓库中 package.json 文件中的 version 版本号
-  方式一：
-  读取规则：https://api.github.com/repos/<username>/<repo>/contents/<file>?ref=<branch 可选，默认master>
-  return fetch('https://api.github.com/repos/themusecatcher/front-end-notes/contents/package.json?ref=master', {
-    headers: {
-      // See https://docs.github.com/en/rest/overview/media-types
-      Accept: 'application/vnd.github.v3.raw',
-      // See https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api#authentication
-      // Authorization: 'token ${GITHUB_TOKEN}',
-    }
-  })
-  方式二：
-  读取规则：https://raw.githubusercontent.com/<username>/<repo>/<branch>/<file>
-  return fetch('https://raw.githubusercontent.com/themusecatcher/front-end-notes/master/package.json')
-*/
-export function fetchVersion () {
-    return fetch('https://github.com/lw123lw/threebird-doc/package.json?ref=master', {
+const owner = 'lw123lw';  // 仓库所有者的用户名
+const repo = 'threebird-doc';  // 仓库名称
+const filePath = 'package.json';  // 文件路径
+
+export const fetchVersion = async () => {
+    const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${filePath}`, {
         headers: {
-            // See https://docs.github.com/en/rest/overview/media-types
-            Accept: 'application/vnd.github.v3.raw',
-            // See https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api#authentication
-            // Authorization: 'token ${GITHUB_TOKEN}',
+            Accept: 'application/vnd.github.v3.raw', // 请求原始内容
         }
-    }).then(res => res.json())
-        .then(json => json.version ?? '')
-        .then(version => {
-            if (!version) return
-            const tagLineParagragh = document.querySelector('div.VPHero.has-image.VPHomeHero > div > div.main > p.tagline')
-            const docsVersionSpan = document.createElement('samp')
-            docsVersionSpan.classList.add('version-tag')
-            docsVersionSpan.innerText = version
-            tagLineParagragh?.appendChild(docsVersionSpan)
-        })
+    });
+
+    if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+    }
+
+    const packageJson = await response.json();
+    const version = packageJson.version;
+
+    if (!version) return;
+
+    const tagLineParagraph = document.querySelector('div.VPHero.has-image.VPHomeHero > div > div.main > p.tagline');
+    const docsVersionSpan = document.createElement('samp');
+    docsVersionSpan.classList.add('version-tag');
+    docsVersionSpan.innerText = `V${version}`; // 添加版本号前的 'V'
+    tagLineParagraph?.appendChild(docsVersionSpan);
 }
