@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c9c0fb3-5266-475f-9a86-380de494af90" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.vitepress/assets/logo-black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vitepress/assets/logo-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps/chunk-CWWDSGDC.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vitepress/cache/deps/chunk-CWWDSGDC.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vitepress/utils/fetchVersion.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/cache/deps/_metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/chunk-OOO2W3XR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/chunk-OOO2W3XR.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress___@vue_devtools-api.js" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress___@vue_devtools-api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress___@vueuse_core.js" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress___@vueuse_core.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/cache/deps/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vitepress/theme/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/config.mts" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/config.mts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/theme/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -61,6 +53,7 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/liwei/Desktop/开源项目/ThreeBird/threebird-doc/.vitepress/assets",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -104,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713170620033</updated>
-      <workItem from="1713170621422" duration="1449000" />
+      <workItem from="1713170621422" duration="3172000" />
     </task>
     <servers />
   </component>
