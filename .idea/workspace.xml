@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c9c0fb3-5266-475f-9a86-380de494af90" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/logo-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/config.mts" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/config.mts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/utils/fetchVersion.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/utils/fetchVersion.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
-    </list>
+    <list default="true" id="6c9c0fb3-5266-475f-9a86-380de494af90" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713170620033</updated>
-      <workItem from="1713170621422" duration="5962000" />
+      <workItem from="1713170621422" duration="6268000" />
     </task>
     <servers />
   </component>
