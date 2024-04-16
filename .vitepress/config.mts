@@ -22,7 +22,13 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '前端', link: '/front/index.md' },
-      { text: '后端', link: '/backend/index.md' },
+      {
+        text: '后端',
+        items: [
+          { text: '安装指引', link: '/backend/install/index.md' },
+          { text: '模块', link: '/backend/modules/index.md' },
+        ]
+      },
       {
         text: '链接',
         items: [
