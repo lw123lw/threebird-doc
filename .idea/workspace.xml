@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c9c0fb3-5266-475f-9a86-380de494af90" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/install/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/modules/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/config.mts" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/config.mts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/install/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/backend/install/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713170620033</updated>
       <workItem from="1713170621422" duration="17694000" />
-      <workItem from="1713274717461" duration="219000" />
+      <workItem from="1713274717461" duration="867000" />
     </task>
     <servers />
   </component>
