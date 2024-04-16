@@ -5,6 +5,10 @@ export default defineConfig({
   base: '/threebird-doc/',
   title: "ThreeBird",
   description: "A VitePress Site",
+  head: [
+    // 添加图标
+    ['link', { rel: 'icon', href: './favicon.png' }]
+  ],
   themeConfig: {
     logo: '/logo-icon.png',
 
