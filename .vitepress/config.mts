@@ -27,8 +27,10 @@ export default defineConfig({
       {
         text: '后端',
         items: [
-          { text: '安装指引', link: '/backend/install/index.md' },
-          { text: '模块', link: '/backend/modules/index.md' },
+          { text: '开发指南', link: '/backend/guide/introduce/preface.md' },
+          { text: '模块专区', link: '/backend/modules/index.md' },
+          { text: '常见问题', link: '/backend/modules/index.md' },
+          { text: '更新日志', link: '/backend/modules/index.md' },
         ]
       },
       {
@@ -62,24 +64,21 @@ export default defineConfig({
           ],
         },
       ],
-      '/backend/': [
+
+      '/backend/guide': [
         {
-          text: '开始1',
+          text: '介绍',
           collapsed: false,
           items: [
-            { text: '什么是ThreeBird Admin', link: '/markdown-examples' },
-            { text: '怎么使用', link: '/api-examples' }
+            { text: '前言', link: '/backend/guide/introduce/preface.md' },
+            { text: '快速上手', link: '/backend/guide/introduce/quickStart.md' }
           ]
         },
         {
-          text: "组件1",
+          text: "开发规范",
           collapsed: false,
           items: [
-            { text: "前言", link: "/guide/intro/index.html" },
-            { text: "头部搜索栏", link: "/guide/intro/penk-search" },
-            { text: "表格栏", link: "/guide/intro/penk-table" },
-            { text: "分页栏", link: "/guide/intro/penk-footer" },
-            { text: "Form表单栏", link: "/guide/intro/penk-form" },
+            { text: "提交规范", link: "/backend/guide/standard/submitSpecification.md" }
           ],
         },
       ]
