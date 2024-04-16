@@ -24,7 +24,9 @@ stats.html
 !.vscode/extensions.json
 !.vscode/launch.json
 !.vscode/settings.json
+
 .idea
+
 *.suo
 *.ntvs*
 *.njsproj
