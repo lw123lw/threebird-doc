@@ -1,7 +1,5 @@
 # 前端项目文档
 
-# Our Team
-
 Say hello to our awesome team.
 
 <VPTeamMembers size="small" :members="members" />

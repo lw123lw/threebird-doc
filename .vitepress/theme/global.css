@@ -140,6 +140,10 @@ svg {
         color: var(--vp-c-brand);
     }
 }
+.tagline {
+    display: flex;
+    align-items: center;
+}
 .version-tag {
     font-size: 12px;
     line-height: 1.571;
@@ -151,4 +155,12 @@ svg {
     border-radius: 10px;
     display: inline-block;
     vertical-align: top;
+}
+.store-info {
+    width: 500px;
+    display: flex;
+}
+.a-position {
+    margin-top: 5px;
+    margin-left: 10px;
 }

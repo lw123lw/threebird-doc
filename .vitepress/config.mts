@@ -5,23 +5,21 @@ export default defineConfig({
   base: '/threebird-doc/',
   title: "ThreeBird",
   description: "A VitePress Site",
+  lastUpdated: true,
   head: [
     // 添加图标
-    ['link', { rel: 'icon', href: './logo/favicon.png' }]
+    ['link', { rel: 'icon', href: 'logo/favicon.png' }]
   ],
   themeConfig: {
     logo: '/logo-icon.png',
 
+    outlineTitle: '文章目录',
+
+    outline: [2, 6],
+
     search: {
       provider: 'local'
     },
-
-    // algolia: { // algolia 搜索服务 与 内置 search 可二选一
-    //   appId: 'LPTNA0E8HM',
-    //   apiKey: '8f1b68dfab6b0320adef728a1c3a77cc',
-    //   indexName: 'themusecatcher_front-end'
-    // },
-
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
