@@ -141,15 +141,14 @@ svg {
     }
 }
 .version-tag {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.571;
     font-weight: bold;
-    padding: 4px 6px;
+    padding: 1px 6px;
     margin-left: 6px;
     background: #bd34fe;
     color: #FFF;
     border-radius: 10px;
     display: inline-block;
     vertical-align: top;
-    margin-top: 4px;
 }

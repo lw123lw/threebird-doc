@@ -23,17 +23,59 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '前端', link: '/front/index.md' },
       { text: '后端', link: '/backend/index.md' },
+      {
+        text: '链接',
+        items: [
+          { text: 'github', link: 'https://github.com/lw123lw/threebird-doc' },
+          { text: 'gitee', link: 'https://github.com/lw123lw/threebird-doc' },
+        ]
+      },
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar: {
+      '/front/': [
+        {
+          text: '开始',
+          collapsed: false,
+          items: [
+            { text: '什么是ThreeBird Admin', link: '/markdown-examples' },
+            { text: '怎么使用', link: '/api-examples' }
+          ]
+        },
+        {
+          text: "组件",
+          collapsed: false,
+          items: [
+            { text: "前言", link: "/guide/intro/index.html" },
+            { text: "头部搜索栏", link: "/guide/intro/penk-search" },
+            { text: "表格栏", link: "/guide/intro/penk-table" },
+            { text: "分页栏", link: "/guide/intro/penk-footer" },
+            { text: "Form表单栏", link: "/guide/intro/penk-form" },
+          ],
+        },
+      ],
+      '/backend/': [
+        {
+          text: '开始1',
+          collapsed: false,
+          items: [
+            { text: '什么是ThreeBird Admin', link: '/markdown-examples' },
+            { text: '怎么使用', link: '/api-examples' }
+          ]
+        },
+        {
+          text: "组件1",
+          collapsed: false,
+          items: [
+            { text: "前言", link: "/guide/intro/index.html" },
+            { text: "头部搜索栏", link: "/guide/intro/penk-search" },
+            { text: "表格栏", link: "/guide/intro/penk-table" },
+            { text: "分页栏", link: "/guide/intro/penk-footer" },
+            { text: "Form表单栏", link: "/guide/intro/penk-form" },
+          ],
+        },
+      ]
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
