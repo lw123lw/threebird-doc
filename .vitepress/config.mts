@@ -32,7 +32,8 @@ export default defineConfig({
             displayDetails: '展示详细列表',
             footer: {
               selectText: '选择',
-              navigateText: '切换'
+              navigateText: '切换',
+              closeText: '关闭'
             }
           }
         }
