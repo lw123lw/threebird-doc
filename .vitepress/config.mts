@@ -8,14 +8,15 @@ export default defineConfig({
   lastUpdated: true,
   head: [
     // 添加图标
-    ['link', { rel: 'icon', href: 'logo/favicon.png' }]
+    ['link', { rel: 'icon', href: '/threebird-doc/logo/favicon.png' }]
   ],
   themeConfig: {
     logo: '/logo-icon.png',
 
-    outlineTitle: '文章目录',
-
-    outline: [2, 6],
+    outline: {
+      level: [2, 6],
+      label: '页面导航'
+    },
 
     search: {
       provider: 'local',
@@ -52,9 +53,9 @@ export default defineConfig({
         text: '后端',
         items: [
           { text: '开发指南', link: '/backend/guide/introduce/preface.md' },
-          { text: '模块专区', link: '/backend/modules/index.md' },
-          { text: '常见问题', link: '/backend/modules/index.md' },
-          { text: '更新日志', link: '/backend/modules/index.md' },
+          { text: '项目专区', link: '/backend/project/modules/one.md' },
+          { text: '常见问题', link: '/backend/problem/dependent/one.md' },
+          { text: '更新日志', link: '/backend/changelog/2024/one.md' },
         ]
       },
       {
@@ -100,9 +101,37 @@ export default defineConfig({
           text: "开发规范",
           collapsed: false,
           items: [
-            { text: "提交规范", link: "/backend/guide/standard/submitSpecification.md" }
+            { text: "提交规范", link: "/backend/guide/standard/submitSpecification.md" },
+            { text: "代码规范", link: "/backend/guide/standard/代码规范.md" }
           ],
         },
+      ],
+      '/backend/project': [
+        {
+          text: "平台组件",
+          collapsed: false,
+          items: [
+            { text: "核心组件", link: "/backend/project/modules/one.md" }
+          ],
+        },
+      ],
+      '/backend/problem': [
+        {
+          text: '开发问题',
+          collapsed: false,
+          items: [
+            { text: '版本依赖', link: '/backend/problem/dependent/one.md' }
+          ]
+        }
+      ],
+      '/backend/changelog': [
+        {
+          text: '2024',
+          collapsed: false,
+          items: [
+            { text: 'v1.01', link: 'backend/changelog/2024/one.md' }
+          ]
+        }
       ]
     },
 
