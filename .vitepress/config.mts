@@ -42,13 +42,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      {
-        text: '前端',
-        items: [
-          { text: '开发指南', link: '/front/guide/page.md' },
-          { text: '组件示例', link: '/front/components/page.md' }
-        ]
-      },
+      { text: '前端', link: '/front/guide/page.md' },
       {
         text: '后端',
         items: [
