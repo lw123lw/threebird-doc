@@ -18,12 +18,35 @@ export default defineConfig({
     outline: [2, 6],
 
     search: {
-      provider: 'local'
+      provider: 'local',
+      options: {
+        translations: {
+          button: {
+            buttonText: '搜索文档',
+            buttonAriaLabel: '搜索文档'
+          },
+          modal: {
+            noResultsText: '无法找到相关结果',
+            resetButtonTitle: '清除查询条件',
+            displayDetails: '展示详细列表',
+            footer: {
+              selectText: '选择',
+              navigateText: '切换'
+            }
+          }
+        }
+      }
     },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '前端', link: '/front/index.md' },
+      {
+        text: '前端',
+        items: [
+          { text: '开发指南', link: '/front/guide/page.md' },
+          { text: '组件示例', link: '/front/components/page.md' }
+        ]
+      },
       {
         text: '后端',
         items: [
@@ -43,24 +66,22 @@ export default defineConfig({
     ],
 
     sidebar: {
-      '/front/': [
+      '/front': [
         {
-          text: '开始',
+          text: '开发指南',
           collapsed: false,
           items: [
-            { text: '什么是ThreeBird Admin', link: '/markdown-examples' },
-            { text: '怎么使用', link: '/api-examples' }
+            { text: '什么是ThreeBird Admin', link: '/front/guide/page.md' },
+            { text: '开始使用', link: '/front/guide/start.md' },
+            { text: 'Q&A', link: '/front/guide/qa.md' }
           ]
         },
         {
-          text: "组件",
+          text: "组件示例",
           collapsed: false,
           items: [
-            { text: "前言", link: "/guide/intro/index.html" },
-            { text: "头部搜索栏", link: "/guide/intro/penk-search" },
-            { text: "表格栏", link: "/guide/intro/penk-table" },
-            { text: "分页栏", link: "/guide/intro/penk-footer" },
-            { text: "Form表单栏", link: "/guide/intro/penk-form" },
+            { text: "proTable(超级表格)", link: "/front/components/proTable.md" },
+            { text: "proForm(超级表单)", link: "/front/components/proForm.md" },
           ],
         },
       ],
