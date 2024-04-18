@@ -134,7 +134,7 @@ export default defineConfig({
     ],
 
     footer: {
-       copyright: "Copyright © 2024-ThreeBird Admin"
+      copyright: "Copyright © 2024-ThreeBird Admin"
     }
   }
 })
