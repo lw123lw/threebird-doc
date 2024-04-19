@@ -19,12 +19,12 @@
 
 ### 开发工具
 
-| 名称                            | 版本      | 用途      | 下载地址        | 备注 |
-|-------------------------------|---------|---------|-------------|----|
-| IntelliJ IDEA                 | 2024.1+ | 程序编写    | 官网(破解版联系群主) |    |
-| DataGrip                      | 2024.1+ | 数据库查询   | 官网(破解版联系群主) |    |
-| OffsetExplorer3               |         | kafka工具 | 官网          |    |
-| Another Redis Desktop Manager |         | Redis工具 | 官网          |    |
+| 名称                                           | 版本      | 用途       | 下载地址        | 备注 |
+|----------------------------------------------|---------|----------|-------------|----|
+| IntelliJ IDEA                                | 2024.1+ | 程序编写     | 官网(破解版联系群主) |    |
+| DataGrip                                     | 2024.1+ | 数据库查询    | 官网(破解版联系群主) |    |
+| OffsetExplorer3                              |         | kafka工具  | 官网          |    |      |
+| RedisInsight / Another Redis Desktop Manager |         | Redis工具  | 官网          |    |      |
 
 ### 插件列表
 
@@ -48,12 +48,18 @@ https://gitee.com/haimashale/three-bird-cloud
 ### 本地host配置
 
 文件地址：
-`
+- windows：
+` 
 C:\Windows\System32\drivers\etc\hosts
+`
+- mac：
+  ` 
+/etc/hosts
 `
 
 *温馨提示：*
-需要使用管理员模式打开才能编辑，为了避免修改错误，请在修改之前自行备份一份，以作备用！
+- windows 为了避免修改错误，请在修改之前自行备份一份，以作备用，并且需要使用管理员模式打开才能编辑
+- mac可以下载SwitchHosts软件来更改hosts
 
 ```cmd
 # three-bird配置开始
