@@ -4,7 +4,6 @@
     <Badge type="info" text="原创" />
     <span>📝 chandler</span>
     <span>📆 2024-04-16 23:17</span>
-    <span>🍰 chandler|wallace</span>
 </div>
 
 ## 环境准备
