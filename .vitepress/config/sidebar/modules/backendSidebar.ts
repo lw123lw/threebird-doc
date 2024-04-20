@@ -1,7 +1,7 @@
 export default {
-    '/backend/guide': [
+    '/backend': [
         {
-            text: '介绍',
+            text: '指南',
             collapsed: false,
             items: [
                 { text: '前言', link: '/backend/guide/introduce/preface.md' },
@@ -16,8 +16,6 @@ export default {
                 { text: "代码规范", link: "/backend/guide/standard/代码规范.md" }
             ],
         },
-    ],
-    '/backend/project': [
         {
             text: "平台组件",
             collapsed: false,
@@ -25,23 +23,26 @@ export default {
                 { text: "核心组件", link: "/backend/project/modules/one.md" }
             ],
         },
-    ],
-    '/backend/problem': [
         {
-            text: '开发问题',
+            text: "业务模块",
+            collapsed: false,
+            items: [
+                { text: "test", link: "/backend/project/modules/one.md" }
+            ],
+        },
+        {
+            text: '常见问题',
             collapsed: false,
             items: [
                 { text: '版本依赖', link: '/backend/problem/dependent/one.md' }
             ]
-        }
-    ],
-    '/backend/changelog': [
+        },
         {
-            text: '2024',
+            text: '更新日志',
             collapsed: false,
             items: [
                 { text: 'v1.01', link: 'backend/changelog/2024/one.md' }
             ]
         }
-    ]
+    ],
 }

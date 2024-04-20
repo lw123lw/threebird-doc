@@ -44,15 +44,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '前端', link: '/front/guide/page.md' },
-      {
-        text: '后端',
-        items: [
-          { text: '开发指南', link: '/backend/guide/introduce/preface.md' },
-          { text: '项目专区', link: '/backend/project/modules/one.md' },
-          { text: '常见问题', link: '/backend/problem/dependent/one.md' },
-          { text: '更新日志', link: '/backend/changelog/2024/one.md' },
-        ]
-      },
+      { text: '后端', link: '/backend/guide/introduce/preface.md' },
       {
         text: '链接',
         items: [
