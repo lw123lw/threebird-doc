@@ -124,6 +124,17 @@
 a:hover {
     text-decoration: none !important;
 }
+
+/* scroll bar */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #d4d7de;
+    border-radius: 20px;
+}
+
 summary {
     font-weight: 600;
     &:hover {
