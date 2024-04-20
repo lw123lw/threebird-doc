@@ -1,3 +1,5 @@
+[//]: # (submitStandard-提交规范)
+
 # 提交规范
 
 <div class="tagBarBadge">

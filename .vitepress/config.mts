@@ -44,7 +44,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '前端', link: '/front/guide/page.md' },
-      { text: '后端', link: '/backend/guide/introduce/preface.md' },
+      { text: '后端', link: '/backend/guide/preface.md' },
       {
         text: '链接',
         items: [
