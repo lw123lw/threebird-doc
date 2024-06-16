@@ -24,12 +24,13 @@ three-bird-cloud是采用DDD-MVC微服务架构开发的一套管理系统，本
 | SpringBoot         | 2.7.18     | 后端主框架          |
 | SpringCloud        | 2021.0.8   | 微服务框架          |
 | SpringCloudAlibaba | 2021.0.6.0 | 阿里微服务框架        |
+| Nacos Alibaba      | 2.3.1      | 配置注册中心         |
 | jasypt             | 3.0.5      | 配置文件加密         |
 | Lombok             | 1.18.30    | 实体类插件          |
 | check-style-plugin | 3.1.0      | 代码检查插件         |
-| MySQL              | 8.0+       | 关系数据库          |
-| Redis              | 3.2+       | 缓存数据库          |
-| Mybatis-Plus       |            | 快速 CRUD 增加开发效率 |
+| MySQL              | 8.0.33     | 关系数据库          |
+| Redis              | 2.7.18     | 缓存数据库          |
+| Mybatis-Plus       | 3.5.2      | 快速 CRUD 增加开发效率 |
 
 ## 功能列表
 
@@ -42,4 +43,18 @@ three-bird-cloud是采用DDD-MVC微服务架构开发的一套管理系统，本
 | 功能3  | 100% | ✔️ |    |                  |
 
 ## 适用领域
+
+## 工程结构
+
+## 模块说明
+
+## 演示地址
+
+## 官方信息
+
+## 优势&愿景
+
+## 用户权益
+
+## 相关链接
 
