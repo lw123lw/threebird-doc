@@ -14,6 +14,14 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo-icon.png',
 
+    lastUpdated: {
+      text: '最后更新于',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+      }
+    },
+
     outline: {
       level: [2, 6],
       label: '页面导航'
